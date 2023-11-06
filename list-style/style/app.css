@@ -18,10 +18,11 @@
 
 body{
     font-family: "Vazir light";
+    background-color: #67b5fa;
 }
 
 #textbox{
-    background-color: #2196F3;
+    background-color: #3b48ab;
     color: #fff;
     border-radius: 12px;
     padding: 24px;
@@ -32,11 +33,23 @@ body{
 }
 
 h1:hover + p{
-    color: #4E342E;
+    color: #fff;
 }
 
 p{
     margin-bottom: 10px;
+    color: #9E9E9E;
+}
+
+ul{
+    margin-bottom: 10px;
+    list-style-image: url('../images/icon.svg');
+    padding: 0;
+    list-style-position: inside;
+}
+
+li:hover{
+    color: #FFD600;
 }
 
 a{
@@ -51,15 +64,4 @@ a:hover{
 
 a:visited{
     color: #512DA8;
-}
-
-ul{
-    margin-bottom: 10px;
-    list-style-image: url('../images/icon.svg');
-    padding: 0;
-    list-style-position: inside;
-}
-
-li:hover{
-    color: #FFD600;
 }
