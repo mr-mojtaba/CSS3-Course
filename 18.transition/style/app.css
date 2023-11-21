@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Vazir light";
+}
+
+.container{
+    width: 900px;
+    margin: 24px auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #00695C;
+    margin: 0 auto;
+    transition: all 250ms ease 250ms;
+}
+
+.box:hover{
+    background-color: #0D47A1;
+}
+
+h3{
+    margin-left: 42px;
+    color: white;
+}
+
+h5{
+    color: white;
+    margin-left: 5px;
+}
+
+p{
+    color: white;
+    margin-left: 5px;
+}
+
+.box1{
+    margin-top: 24px;
+    width: 100px;
+    height: 100px;
+    background-color: #B71C1C;
+    transition: all 500ms linear 100ms;
+}
+
+.box1:hover{
+    width: 400px;
+    background-color: #F44336;
+}
+
+.box2{
+    margin-top: 24px;
+    width: 100px;
+    height: 100px;
+    background-color: #B71C1C;
+    transition: all 500ms ease 100ms;
+}
+
+.box2:hover{
+    width: 400px;
+    background-color: #F44336;
+}
+
+.box3{
+    margin-top: 24px;
+    width: 100px;
+    height: 100px;
+    background-color: #B71C1C;
+    transition: all 500ms ease-in 100ms;
+}
+
+.box3:hover{
+    width: 400px;
+    background-color: #F44336;
+}
+
+.box4{
+    margin-top: 24px;
+    width: 100px;
+    height: 100px;
+    background-color: #B71C1C;
+    transition: all 500ms ease-out 100ms;
+}
+
+.box4:hover{
+    width: 400px;
+    background-color: #F44336;
+}
+
+.box5{
+    margin-top: 24px;
+    width: 100px;
+    height: 100px;
+    background-color: #B71C1C;
+    transition: all 500ms ease-in-out 100ms;
+}
+
+.box5:hover{
+    width: 400px;
+    background-color: #F44336;
+}
