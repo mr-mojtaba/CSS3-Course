@@ -1,24 +1,6 @@
-@font-face {
-    font-family: "Vazir Light";
-    src:
-    url(../fonts/ttf/Vazirmatn-Light.ttf) format(truetype),
-    url(../fonts/woff2/Vazirmatn-Light.woff2) format(woff2);
-}
-
-@font-face {
-    font-family: "Vazir Bold";
-    src:
-    url(../fonts/ttf/Vazirmatn-Bold.ttf) format(ttf),
-    url(../fonts/woff2/Vazirmatn-Bold.woff2) format(woff2);
-}
-
 *{
     box-sizing: border-box;
     margin: 0;
-}
-
-body{
-    font-family: "Vazir light";
 }
 
 .container{
