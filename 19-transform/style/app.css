@@ -26,6 +26,7 @@ h5{
     margin: 0 auto;
     width: 100px;
     height: 100px;
+    line-height: 100px;
     background-color: #D50000;
     transition: all 350ms ease-in-out;
 }
